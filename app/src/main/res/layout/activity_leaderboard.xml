@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderboard"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:id="@+id/ll_leaderboard_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/leaderboard_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_leaderboard_avatar1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/img_blue_mole"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/avatar"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_name1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/default_name"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_score1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_score"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_leaderboard_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/leaderboard_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_leaderboard_avatar2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/img_orange_mole"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/avatar"/>
+
+            <TextView
+                android:id="@+id/tv_leaderboard_name2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/default_name"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_leaderboard_score2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_score"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_leaderboard_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/leaderboard_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_leaderboard_avatar3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/img_grey_mole"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/avatar"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_name3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/default_name"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_score3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_score"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_leaderboard_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/leaderboard_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_leaderboard_avatar4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/img_pink_mole"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/avatar"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_name4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/default_name"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_score4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_score"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_leaderboard_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:background="@drawable/leaderboard_item_bg">
+
+            <ImageView
+                android:id="@+id/iv_leaderboard_avatar5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/img_green_mole"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/avatar"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_name5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/default_name"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tv_leaderboard_score5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/default_score"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

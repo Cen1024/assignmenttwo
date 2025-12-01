@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:src="@drawable/img_wakamole_text"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/game_title"/>
+
+    <TextView
+        android:id="@+id/tv_player_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score_display"
+        android:textSize="22sp"
+        android:textColor="#6750A4"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_name"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/et_player_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/name_hint"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:paddingHorizontal="10dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avatar_colour"
+            android:textSize="18sp"
+            android:textColor="#6750A4"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rg_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_grey"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/grey"
+            android:checked="true"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+
+
+            <RadioButton
+            android:id="@+id/rb_blue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/blue"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_orange"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/orange"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_green"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/green"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_purple"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/purple"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_pink"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/pink"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"/>
+    </RadioGroup>
+</LinearLayout>
+
+
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="60dp"
+    android:text="@string/submit"
+    android:textSize="20sp"
+    android:onClick="onClickSubmit"
+    android:background="#6750A4"
+    android:textColor="@android:color/white"
+    android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
